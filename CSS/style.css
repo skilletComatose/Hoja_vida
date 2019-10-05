@@ -45,15 +45,15 @@ table {
 
 section{
     margin: auto;
-    width: 90%;
+    width: 70%;
     height: 400px;
     background-color: aqua;
 }
 .lenguajes{
     margin: auto;
     display: flex;
-    width: 90%;
-    height: 500px;
+    width: 70%;
+    height: 300px;
     margin: auto;
     /*background-color: rgb(36, 28, 44);*/
     background-image: url(../IMAGE/fondo.jpg);
@@ -67,7 +67,7 @@ section{
 
 .imagen{
     width:22%;
-    height: 500px;
+    height: 300px;
     background-color: rgb(122, 42, 42);
     position: absolute; /* para que se referencie con respecto al body*/
 }
@@ -81,11 +81,12 @@ section{
 }
 .c, .python, .java {
     margin-left: 14%;
-    width: 73%;
-    height: 50%;
+    width: 72%;
+    height: 42%;
     border-radius: 100%;
     background-position: center;
     background-size: cover;
+    margin-top: 10%;
 }
 
 .c{
@@ -109,16 +110,16 @@ section{
     margin-top: 10px;
     display: flex; 
     justify-content: flex-end;
-    width:85%;
-    height: 80%;
+    width:100%;
+    height: 100%;
    /* background-color: blue;*/
 }
 
 .caja{
     border-radius: 40%;
-    width: 20%;
-    height: 90%;
-    margin-left: 7%;
+    width: 18%;
+    height: 69%;
+    margin-left: 4%;
     background-color: rgba(245, 245, 245, 0.685);
 
 }
