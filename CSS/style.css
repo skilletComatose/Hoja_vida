@@ -44,47 +44,83 @@ table {
 /*------------------------------------------------RESET CSS- -------------------------------------------*/
 
 section{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    background-color: aqua;
+}
+.lenguajes{
+    margin: auto;
     display: flex;
-    width: 70%;
+    width: 90%;
     height: 500px;
     margin: auto;
-    background-color: rgb(36, 28, 44);
+    /*background-color: rgb(36, 28, 44);*/
+    background-image: url(../IMAGE/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-.container1 ,.imagen{
-    height: 380px;
-    background-color: rgb(56, 151, 94);
-}
 
 .imagen{
     width:22%;
-    background-color: rgba(122, 42, 42, 0.486);
+    height: 500px;
+    background-color: rgb(122, 42, 42);
     position: absolute; /* para que se referencie con respecto al body*/
 }
 .container1{
-    display: flex;
+    height: 380px;
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: ease-in-out ; /*efecto desplegue*/
-    width:30%;
+    width:24%;
 
 }
 .c, .python, .java {
-    margin-left: 1%;
-    width: 120px;
-    height: 120px;
+    margin-left: 14%;
+    width: 73%;
+    height: 50%;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .c{
+    background-image: url(../IMAGE/ICON/c.png);
     background-color: aqua;
 }
 
 .python{
-    background-color: brown;
+    
+    background-image: url(../IMAGE/ICON/python.png);
 }
 
 .java{
-    background-color: rgb(177, 177, 68);
+    background-image: url(../IMAGE/ICON/java.png);
+    background-color: whitesmoke;
+}
+
+
+.ban{
+    margin: auto;
+    margin-top: 10px;
+    display: flex; 
+    justify-content: flex-end;
+    width:85%;
+    height: 80%;
+   /* background-color: blue;*/
+}
+
+.caja{
+    border-radius: 40%;
+    width: 20%;
+    height: 90%;
+    margin-left: 7%;
+    background-color: rgba(245, 245, 245, 0.685);
+
 }
 .container1:hover{
     width: 90%; 
