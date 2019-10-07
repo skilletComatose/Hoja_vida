@@ -43,16 +43,65 @@ table {
 }
 /*------------------------------------------------RESET CSS- -------------------------------------------*/
 
-section{
-    margin: auto;
-    width: 70%;
-    height: 400px;
-    background-color: aqua;
+body{
+    font-family:  'Arial Narrow','Franklin Gothic Medium';
+    background-color: rgba(51, 92, 99, 0.637);
 }
+
+section{
+    display: flow-root;
+    margin: auto;
+    margin-top: 3%;
+    width: 56%; 
+    height: 400px;
+    background-color: rgb(32, 61, 61);
+    min-width: 500px;
+}
+
+.nombre{
+    width: 52%;
+    height: 50%;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 12px;
+}
+.nom{
+    font-size: 18px;
+    margin-top: 2%;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+}
+.cara{
+    background-image: url(../IMAGE/smoking.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+
+.txt{
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    width: 60%;
+    width: 60%;
+    line-height: 20px;
+    color: white;
+    /*background-color: brown;*/
+}
+
 .lenguajes{
+    min-width: 500px;
     margin: auto;
     display: flex;
-    width: 70%;
+    width: 56%; 
     height: 300px;
     margin: auto;
     /*background-color: rgb(36, 28, 44);*/
@@ -64,14 +113,16 @@ section{
 
 }
 
-
 .imagen{
-    width:22%;
+    width:26%;
     height: 300px;
-    background-color: rgb(122, 42, 42);
+    background-color: whitesmoke;
+    border-radius: 10px;
     position: absolute; /* para que se referencie con respecto al body*/
 }
+
 .container1{
+   
     height: 380px;
     transition-property: width;
     transition-duration: 1s;
@@ -82,7 +133,7 @@ section{
 .c, .python, .java {
     margin-left: 14%;
     width: 72%;
-    height: 42%;
+    height: 40%;
     border-radius: 100%;
     background-position: center;
     background-size: cover;
@@ -91,7 +142,7 @@ section{
 
 .c{
     background-image: url(../IMAGE/ICON/c.png);
-    background-color: aqua;
+    background-color:white;;
 }
 
 .python{
@@ -110,8 +161,8 @@ section{
     margin-top: 10px;
     display: flex; 
     justify-content: flex-end;
-    width:100%;
-    height: 100%;
+    width:110%;
+    height: 76%;
    /* background-color: blue;*/
 }
 
@@ -126,3 +177,4 @@ section{
 .container1:hover{
     width: 90%; 
 }
+
