@@ -11,170 +11,92 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+        display: block;
 }
 body {
-	line-height: 1;
+        line-height: 1;
 }
 ol, ul {
-	list-style: none;
+        list-style: none;
 }
 blockquote, q {
-	quotes: none;
+        quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+        content: '';
+        content: none;
 }
 table {
     border-collapse: collapse;
-	border-spacing: 0;
+        border-spacing: 0;
 }
 /*------------------------------------------------RESET CSS- -------------------------------------------*/
-
-body{
-    font-family:  'Arial Narrow','Franklin Gothic Medium';
-    background-color: rgba(51, 92, 99, 0.637);
+@font-face{  /*declarar la fuente que descargue*/
+    font-family: 'creemeWE';
+    src: url(../FONT/lemon_brush/Lemon\ Brush\ -\ Personal\ Use.otf);       
 }
 
-section{
-    display: flow-root;
+.fondo{
+    min-width: 1315px;
     margin: auto;
-    margin-top: 3%;
-    width: 56%; 
+    width: 83%;
     height: 400px;
-    background-color: rgb(32, 61, 61);
-    min-width: 500px;
-}
-
-.nombre{
-    width: 52%;
-    height: 50%;
-    background-color: whitesmoke;
-    margin: auto;
-    margin-top: 4%;
-    border-radius: 12px;
-}
-.nom{
-    font-size: 18px;
-    margin-top: 2%;
-    color: black;
-    text-align: center;
-    line-height: 20px;
-}
-.cara{
-    background-image: url(../IMAGE/smoking.jpg);
-    background-size: cover;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: black;
-}
-
-
-.txt{
-    letter-spacing: 2px;
-    font-size: 16px;
-    margin: auto;
-    padding: 5%;
-    text-align: center;
-    width: 60%;
-    width: 60%;
-    line-height: 20px;
-    color: white;
-    /*background-color: brown;*/
-}
-
-.lenguajes{
-    min-width: 500px;
-    margin: auto;
-    display: flex;
-    width: 56%; 
-    height: 300px;
-    margin: auto;
-    /*background-color: rgb(36, 28, 44);*/
-    background-image: url(../IMAGE/fondo.jpg);
+    background-image: url(../IMAGES/eta.png);
+    background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+    background-color: rgb(65, 57, 57); 
+    /*border: solid 10px blue;*/
 }
-
-.imagen{
-    width:18%;
+.nom{
+    font-family: 'creemeWE';
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 60px;
+    transform: rotate(-5deg);
+    text-shadow: 1px 1px white;
+}
+a{
+    position: relative;
+    top: 6%;
+    color: black;
+    text-decoration: none;
+    margin-left: 25%;
+    font-family: 'creemeWE';
+    font-size: 60px;
+    text-shadow: 1px 1px white;
+}
+.letras{
+    width: 35%;
+    /*border: solid 5px;*/
+}
+.container{
+    margin: auto;
+    width: 79%;
+    display: flex;
     height: 300px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    position: absolute; /* para que se referencie con respecto al body*/
+    /*border: solid 5px yellow;*/
 }
 
-.container1{
-   
-    height: 380px;
-    transition-property: width;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out ; /*efecto desplegue*/
-    width:24%;
 
-}
-.c, .python, .java {
-    margin-left: 14%;
-    width: 72%;
-    height: 40%;
+.cara{
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
+    background-image: url(../IMAGES/perfil.jpg);
     background-position: center;
     background-size: cover;
+    margin-left: 36%;
     margin-top: 10%;
 }
-
-.c{
-    background-image: url(../IMAGE/ICON/c.png);
-    background-color:white;;
-}
-
-.python{
-    
-    background-image: url(../IMAGE/ICON/python.png);
-}
-
-.java{
-    background-image: url(../IMAGE/ICON/java.png);
-    background-color: whitesmoke;
-}
-
-
-.ban{
-    margin: auto;
-    margin-top: 10px;
-    display: flex; 
-    justify-content: flex-end;
-    width:100%;
-    height: 76%;
-   /* background-color: blue;*/
-}
-
-.caja{
-    border-radius: 40%;
-    width: 18%;
-    height: 69%;
-    margin-left: 4%;
-    background-color: rgba(245, 245, 245, 0.685);
-
-}
-.container1:hover{
-    width: 90%; 
-}
-
