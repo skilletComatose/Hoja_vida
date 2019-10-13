@@ -50,6 +50,7 @@ table {
 
 body{
     font-family: 'creemeWE';
+    background-image: url(../IMAGES/matrix.gif);
 }
 header{
     margin: auto;
@@ -102,13 +103,14 @@ header{
     min-width: 980px;
     width: 60%;
     height: 374px;
-    background-color: #83ccc440;
+    background-color: #bde1dd;
     /*border: solid 1px blue;*/
 }
 
 .uno{
     width: 30%;
     height: 100%;
+    background-color: white;
     /*border: solid 2px aqua;*/
 }
 .text{
