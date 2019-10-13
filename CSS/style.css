@@ -57,6 +57,7 @@ table {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(217, 179, 179);
+    
     /*border: solid 10px blue;*/
 }
 
@@ -103,8 +104,8 @@ a{
     height: 120px;
     border-radius: 100%;
     background-image: url(../IMAGES/perfil.jpg);
-    background-position: center;
     background-size: cover;
+    background-position: center;
     margin-left: 36%;
     margin-top: 10%;
 }
