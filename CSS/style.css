@@ -46,8 +46,11 @@ table {
     font-family: 'creemeWE';
     src: url(../FONT/lemon_brush/Lemon\ Brush\ -\ Personal\ Use.otf);       
 }
-
+body{
+    background-color: #c6f0eda6;
+}
 .fondo{
+    border-radius: 38px;
     min-width: 1319px;
     margin: auto;
     width: 84%;

@@ -196,9 +196,21 @@ footer{
     background-position: center;
     background-size: cover;
 }
+
+.face:hover, .whats:hover, .inst:hover{
+    width:8%;
+    height: 100%;
+    transition: 0.5s;   
+}
 .final{
     width: 63%;
     height: 100%;
+}
+#final{
+    font-size: 45px;
+    margin: auto;
+    margin-top: 3%;
+    text-shadow: 2px 1px white;
 }
 .face{
     background-image: url(../IMAGES/ICON/facebook.png);
