@@ -85,13 +85,13 @@ header{
     width: 60%;
     height: 374px;
     background-color: #83ccc440;
-    border: solid 1px blue;
+    /*border: solid 1px blue;*/
 }
 
 .uno{
     width: 30%;
     height: 100%;
-    border: solid 2px aqua;
+    /*border: solid 2px aqua;*/
 }
 .text{
     margin: 0;
@@ -110,7 +110,7 @@ header{
     display: flex;
     width: 70%;
     height: 100%;
-    border: solid 1px brown;
+    /*border: solid 1px brown;*/
 }
 
 .caja{
@@ -155,25 +155,30 @@ p{
 }
 
 footer{
+    display: flex;
     margin: auto;
     min-width: 980px;
     width: 60%;
-    height: 100px;
+    height: 75px;
     background: linear-gradient(155deg, rgb(217, 179, 179) 60%, #685151 60%);
 
 }
 
-
-
 .face, .whats, .inst{
+    margin: auto;
+    width: 5%;
+    height: 67%;
+    border-radius: 100%;
     background-position: center;
     background-size: cover;
 }
 
-
-.redes{
-    width: 100%;
-}
 .face{
     background-image: url(../IMAGES/ICON/facebook.png);
+}
+.whats{
+    background-image: url(../IMAGES/ICON/whatsapp.png);
+}
+.inst{
+    background-image: url(../IMAGES/ICON/instagram.png);
 }
