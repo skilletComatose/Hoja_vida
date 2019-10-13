@@ -48,17 +48,24 @@ table {
 }
 
 .fondo{
-    min-width: 1315px;
+    min-width: 1319px;
     margin: auto;
-    width: 83%;
+    width: 84%;
     height: 400px;
     background-image: url(../IMAGES/eta.png);
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(65, 57, 57); 
+    background-color: rgb(217, 179, 179);
     /*border: solid 10px blue;*/
 }
+
+.ban{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(155deg, rgba(217, 179, 179, 0.027) 72%, #685151 60%);
+}
+
 .nom{
     font-family: 'creemeWE';
     margin-top: 10%;
@@ -67,6 +74,7 @@ table {
     transform: rotate(-5deg);
     text-shadow: 1px 1px white;
 }
+
 a{
     position: relative;
     top: 6%;
