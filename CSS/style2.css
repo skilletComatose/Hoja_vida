@@ -43,6 +43,14 @@ table {
 }
 /*------------------------------------------------RESET CSS- -------------------------------------------*/
 
+@font-face{  /*declarar la fuente que descargue*/
+    font-family: 'creemeWE';
+    src: url(../FONT/lemon_brush/Lemon\ Brush\ -\ Personal\ Use.otf);       
+}
+
+body{
+    font-family: 'creemeWE';
+}
 header{
     margin: auto;
     min-width: 980px;
@@ -55,7 +63,7 @@ header{
     display: flex;
     width: 80%;
     height: 70%;
-    border: solid 5px blue;
+    /*border: solid 5px blue;*/
 }
 .cara{
     margin-left: 10%;
@@ -67,14 +75,24 @@ header{
 
 .texto{
     text-align: center;
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 50%;
+    font-size: 40px;
+    margin-top: 1%;
+    margin-left: 6%;
+    width: 60%;
     height: 100px;
     color: white;
-    border: solid 5px red;
+    text-shadow: 1px 1px black;
+    /*border: solid 1px red;*/
 }
-
+.rmr{
+    margin-left: 10%;
+    width: 33%;
+    height: 50px;
+    /*border: solid 1px greenyellow;*/
+    font-size: 63px;
+    text-align: center;
+    text-shadow: 2px 1px white;
+}
 .inicial{
     margin:0;
 }
@@ -172,7 +190,10 @@ footer{
     background-position: center;
     background-size: cover;
 }
-
+.final{
+    width: 63%;
+    height: 100%;
+}
 .face{
     background-image: url(../IMAGES/ICON/facebook.png);
 }
