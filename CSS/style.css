@@ -82,8 +82,8 @@ ul {                      /*hacer la barra de navegación*/
     height: 600px;
     background-image: url(../IMAGES/etiqueta.png);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: contain;
+    min-width: 1315px;
 }
 .etiq {
     -webkit-animation-name: slideInDown;
@@ -228,6 +228,7 @@ p{
     }
 
 .ban{
+    min-width: 1315px;
     display: flex;
     justify-content: center;
     align-items: center;
