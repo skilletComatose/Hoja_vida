@@ -295,18 +295,19 @@ p{
     }
 
 .ban{
+    margin-top: 5%;
     min-width: 1315px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 680px;
     background-color:#015778;
 }
 .banner{
     margin: auto;
     width: 80%;
-    height: 500px;
+    height: 100%;
     background-image: url(../IMAGES/banner.jpg);
     background-size: contain;
     background-position: center;
