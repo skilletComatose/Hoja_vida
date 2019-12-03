@@ -76,14 +76,72 @@ ul {                      /*hacer la barra de navegación*/
 	background-color:#0156781e;
   }
 
+.present{
+    min-width: 1315px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.carta{
+    margin-top: 2%;
+    margin-left: -6%;
+    width: 40%;
+    height: 300px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+.box{
+    margin: 2%;
+    margin-top: -1%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    border: solid 1px black;
+}
+
+.icon1,.icon2,.icon3,.icon4{
+    width: 12%;
+    height: 90%;
+    margin-left: 1%;
+    border-radius: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon1{
+    background-image: url(../IMAGES/ICON/person.png);
+}
+.icon2{
+    background-image: url(../IMAGES/ICON/letter.png);
+}
+
+.icon3{
+    background-image: url(../IMAGES/ICON/call.png);
+}
+
+.icon4{
+    background-image: url(../IMAGES/ICON/flag.png);
+}
 .etiqueta{
-    margin-top: -5%;
-    margin-left: 16%;
     display: flex;
     width: 40%;
-    height: 500px;
-    background-image: url(../IMAGES/etiqueta.png);
+    height: 510px;
+    background-image: url(../IMAGES/etiqueta2.png);
     background-size: cover;
+}
+
+.circulo{
+    width: 30px;
+    height: 30px;
+    margin-left: 2%;
+    margin-top: 2%; 
+    border-radius: 100%; 
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
 }
 
 .cara{
@@ -110,9 +168,6 @@ p{
     text-align: center;
     font-size: 30px;
 }
-
-
-
 
 .nombre{
         display: flex;
